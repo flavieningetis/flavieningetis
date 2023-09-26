@@ -1,0 +1,29 @@
+body
+{
+	background-color: blueviolet;
+}
+h1
+{
+   color: red;
+   font-size: 40px;
+   text-align: center;
+
+}
+h2,h3
+{
+
+color: greenyellow;
+}
+
+div
+{
+    background-color: seagreen;
+	border: 7px solid yellowgreen;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	padding: 3%;
+	color: whitesmoke;
+	border-radius: 5%;
+}
