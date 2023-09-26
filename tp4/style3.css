@@ -1,0 +1,47 @@
+body
+{
+	background-color: purple;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+
+}
+.g1
+{
+
+	 background-color: lightgrey;
+	border: 7px whitesmoke;
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	padding: 3%;
+	color: whitesmoke;
+	border-radius: 5%;
+}
+.g2
+{
+	border-radius: 50%;
+	background-color: lightgrey;
+    border: solid darkred;
+    border-block-width: 1;
+	padding: 20%;
+	height: 3px;
+	width: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.txt 
+{
+	color: red;
+}
+.g1:hover{
+-ms-transform: scale(1.05); /* IE 9 */
+-webkit-transform: scale(1.05); /* Safari 3-8 */
+transform: scale(1.05);
+background-color: grey;
+}
+.txt2{
+ color: black;
+}

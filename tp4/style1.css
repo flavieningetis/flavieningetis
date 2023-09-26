@@ -12,13 +12,13 @@ h1
 h2,h3
 {
 
-color: greenyellow;
+color: blue;
 }
 
 div
 {
-    background-color: seagreen;
-	border: 7px solid yellowgreen;
+    background-color: green;
+	border: 7px solid green;
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
@@ -27,3 +27,37 @@ div
 	color: whitesmoke;
 	border-radius: 5%;
 }
+.groupe1
+{ 
+ background-color: yellow;
+
+ }
+ .groupe2
+ {
+   background-color: darkred;
+
+ }
+
+ .b1
+ {
+
+background-color: #0074d9;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+text-align: center;
+margin: 10px;
+cursor: pointer;
+transition: color 0.3s ease;
+width: 150px;
+}
+.b1:hover {
+	color: red;
+	background-color: yellow;
+}
+
+
+
+
+ }
