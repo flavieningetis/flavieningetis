@@ -1,7 +1,7 @@
 body {
 	font-family: Arial, sans-serif;
 	background-color: #f4f4f4;
-	color: white;
+	color: black	;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -9,28 +9,29 @@ body {
 
 h1
 {
-color: #333;
+color: #grey;
 
 
 }
 
 form{
 background-color: #fff;
-max-width: 400px;
+max-width: 450px;
 margin: 0 auto;
-padding: 20px;
+padding: 30px;
 border-radius: 5px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+max-height: 5500px;
 
 }
 label
 {
+	margin-top: 2px;
 display: block;
 margin-bottom: 5px;
 font-weight: bold;
 }
-input[type="text"];
-input[type="email"];
+input[type="text"],input[type="email"],
 textarea
 {
 	width: 90%;
@@ -46,9 +47,9 @@ textarea
 input[type="submit"] {
 	background-color: #007bff;
 	color: #fff;
-	border: none;
-	padding: 10px 20px;
 	border-radius: 3px;
+	padding: 10px 20px;
+	border: none;
 	cursor: pointer;
 }
 input[type="submit"]:hover {

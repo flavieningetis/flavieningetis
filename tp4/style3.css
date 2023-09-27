@@ -1,6 +1,6 @@
 body
 {
-	background-color: purple;
+	background-color: grey;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -44,4 +44,8 @@ background-color: grey;
 }
 .txt2{
  color: black;
+}
+footer
+{
+	color: yellow;
 }
