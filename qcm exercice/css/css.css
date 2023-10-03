@@ -1,0 +1,23 @@
+body
+{
+	background-color: #DCDCDC;
+
+}
+
+h1
+{
+	text-align: center;
+}
+fieldset
+{
+	margin-top: 20px;
+	text-size-adjust: auto;
+	background-color: lightgrey;
+	
+}
+input{
+	text-size: 50px;
+}
+legend{
+	font-weight: bold;
+}
