@@ -17,12 +17,13 @@ body{
 nav{
     width: 100%;
     margin: 0 auto;
-    background-color: rgb(175, 173, 173);
+    background-color: #8b7a7a;
     position: sticky;
     top: 0px;
+    padding-top: 7px;
 }
 .deroulant {
-    background-color: rgb(175, 173, 173);
+    background-color: #8b7a7a;
 }
 
 nav ul{
