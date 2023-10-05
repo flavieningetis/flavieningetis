@@ -26,3 +26,26 @@ footer
 	text-align: center;
 	padding: 10px;
 }
+.foot {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+a{
+	margin-left: 30px;
+	text-align: bottom;
+	
+	
+}
+.b1{
+	font-size: 15px;
+	margin-top: 5px;
+	padding: 7px;
+	text-align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
