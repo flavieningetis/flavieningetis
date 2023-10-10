@@ -1,0 +1,127 @@
+body
+{
+    background-color: whitesmoke;
+    font-family: "Gill Sans", sans-serif;
+}
+
+main
+{
+    border: 0 solid grey;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    height: 800px;
+    border-radius: 8px;
+    background-color: lightgrey;
+}
+
+header
+{
+	height: 100px;
+}
+
+.c1
+{
+    margin-bottom: 3px;
+    width: 47%;
+    height: 100px;
+    float: left;
+
+}
+.c2
+{
+	border-radius: 50%;
+	margin-bottom: 5px;
+    margin: auto;
+    width: 47%;
+    height: 100px;
+    float: right;
+
+}
+
+.img1
+{
+	border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+section {
+	border: 0 solid lightgrey;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    clear: both;
+    height: 200px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.c3
+{
+    border: 0
+    padding: 5px;
+    border-radius: 8px;
+    margin: auto;
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.s2 {
+	margin-top: 20px;
+}
+.c4
+{
+    border: 0 solid grey;
+    padding: 5px;
+    border-radius: 8px;
+    margin: auto;
+    width: 75%;
+    height: 200px;
+    float: right;
+}
+.c5
+{
+    border: 0 solid grey;
+    padding: 5px;
+    border-radius: 8px;
+    margin: auto;
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.c6
+{
+    border: 0 solid grey;
+    padding: 5px;
+    border-radius: 8px;
+    margin: auto;
+    width: 75%;
+    height: 200px;
+    float: right;
+}
+.c7
+{
+    border: 0 solid grey;
+    padding: 5px;
+    border-radius: 8px;
+    margin: auto;
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.c8
+{
+    border: 0 solid grey;
+    padding: 5px;
+    border-radius: 8px;
+    margin: auto;
+    width: 75%;
+    height: 200px;
+    float: right;
+}
+.c5,.c6 {
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
