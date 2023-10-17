@@ -34,7 +34,7 @@ function permute(){
     var a =document.getElementById("t1").value;
     var b =document.getElementById("t2").value; 
     t1.value= b;
-    t2.value= a;
+    t2.value= a; 
 }
 function parite(){
     var a =document.getElementById("t1").value;
