@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+body {
+    background-color: lightblue;
+}
+.t{
+    border-radius: 20px;
+    height: 50px;
+    width: 350px;
+    margin-top: 5px;
+}
+.t55 {
+    margin-left: 295px;
+    border-radius: 20px;
+    height: 50px;
+    width: 350px;
+   
+}
