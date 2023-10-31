@@ -3,11 +3,16 @@
     height: 350px;
     width: 475px;
     border: solid 10px black;
-
 }
 .a:hover {
     zoom: 150%;
     
+}
+.a2{
+ float: left;
+}
+.a1 {
+    float: right;
 }
 .b{
     float: right;
