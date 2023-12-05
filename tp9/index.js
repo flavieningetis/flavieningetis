@@ -54,52 +54,41 @@ alert("Délai Dépassé");
 
 function cdc(){
 var mot=prompt('Donner un mot');
-document.write(mot.toUpperCase()+"<br>");
-document.write(mot.toLowerCase()+"<br>");
-document.write("La chaîne contient "+ mot.length + 'caractères'+"<br>");
-document.write("La première lettre est "+ mot.substr(0,1) + '<br>');
-document.write("La derniere lettre est "+ mot.substr(length-1,1) + '<br>');
+var e = "e"
+if(mot.includes(e))
+alert("e detecté")
+else {
+    alert("pas de e")
+}
 }
 function swich() {
-    var color = prompt("Entrez une couleur :");
-    switch (color){
-    case "rouge":
-        document.body.style.background = "red";
-        break;
-    case "bleu":
-        document.body.style.background = "blue";
-        break;
-    case "jaune":
-        document.body.style.background = "yellow";
-        break;
-    case "vert":
-        document.body.style.background = "green";
-        break;
-
-        default:
-            alert("couleur non comprise, Veuillez Choisir parmis: bleu, rouge, jaune, vert");
+    var x = Number(prompt("entrer un nombre"))
+    if(x>=20){
+    document.write("a la folie")
     }
+    else if (x<10)
+    document.write("un peu")
+else if (x==10)
+document.write("passionement")
 }
 function bonus() {
-    var totalf = 0
-    var total = ""
-    var c = ""
-    do{
-        var article = prompt("Votre article")
-        var prix = prompt("Le prix")
-        var quantité = prompt("La quantité")
-
-        alert('Vos'+article+'couterons'+prix * quantité+' €')
-        total = Number(prix)*Number(quantité) 
-        totalf += total 
-        c += ("Article : " +article+" <br> PRIX : "+prix +"€"+ " <br> Quantité : "+quantité+ " <br> Total : "+total+"€"+"<br><br><br>")
-        alert('Vos articles additionnés courterons ' + totalf + "€")
-
-        next = prompt("Voulez vous continuer (OUI/STOP) ?")
-    }
-    while(next != "STOP");
-    document.write(c);
-    document.write(" TOTAL FINAL : "+totalf+"€");
-
-
+    do {
+    var nomarticle = prompt("Nom de votre article");
+    var prixarticle = prompt("Prix de votre article");
+    var quantitearticle = prompt("Quantité d'article");
+    var somme = prixarticle*quantitearticle;  
+    var total =""
+    total += (nomarticle+"<br>"+prixarticle+"<br>"+quantitéarticle+"<br><br>") ;
+    var s = prompt("Continuer ? (y/n)")
 }
+
+        while (s=="y") {
+
+        document.write(nomarticle+"<br>");
+        document.write(prixarticle+"€<br>");
+        document.write (quantitearticle+"<br>");
+        document.write(somme+"€<br>");
+        }
+    }
+
+
